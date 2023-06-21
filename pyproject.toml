@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "practice-asyncio"
+version = "0.1.0"
+description = ""
+authors = ["Yasunori Horikoshi <hotoku@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "practice_asyncio"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
